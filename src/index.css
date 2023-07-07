@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.section {
+  padding: 30px 75px;
+  margin: 20vh 0;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+
+
+.nav {
+  align-items: center;
+  width: 100vw;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+.nav h1 {
+  border-bottom: 5px solid #5664fb;
+}
+
+.nav a {
+  /* font-size: large; */
+  font-weight: bold;
+  text-decoration: none;
+  color: #5664fb;
+  padding: 7px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.nav a:hover {
+  color: white;
+  background: #5664fb;
+}
+
+
+.active-link {
+  color: white !important;
+  background: #5664fb;
+}
+
+.about {
+  display: flex;
+}
+
+.about-item {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.about-item-2 {
+  flex: 2;
+  text-align: start;
+}
+
+.porto {
+  text-align: center;
+}
+
+.porto-section {
+  background-color: #e6e8fb;
+}
+
+.resume-container {
+  margin: 0 auto;
+  width: 40%;
+  background-color: #e6e8fb;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.porto-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.porto-item {
+  width: 25%;
+  padding: 25px;
+  margin: 15px;
+  background: white;
+  border-radius: 10px;
+}
+
+.contact-container {
+  text-align: start;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contact-container input {
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.contact-container button {
+  width: 100%;
+}
+
+.button {
+  padding: 12px;
+  background: #5664fb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-section {
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  background: #5664fb;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+}
